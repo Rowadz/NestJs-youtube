@@ -6,16 +6,19 @@ import { PostEntity } from './posts/posts.entity';
 import { CommentEntity } from './comments/comments.entity';
 import { LikeEntity, Type } from './likes/likes.entiy';
 import { UserFollower, Status } from './user-follower/userFollower.entity';
+import { genSalt, hashSync } from 'bcryptjs';
 
 export class Seed {
   private users: Array<Partial<UserEntity>>;
   private posts: Array<Partial<PostEntity>>;
+  private salt: string;
   constructor(private readonly entityManager: EntityManager) {
     this.users = [];
     this.posts = [];
   }
 
   async fakeIt<T>(entity: any): Promise<void> {
+    this.salt = await genSalt(10);
     switch (entity) {
       case UserEntity:
         return this.addData(
@@ -49,6 +52,8 @@ export class Seed {
         Roles.admin,
       ]),
       about: lorem.sentences(),
+      password: hashSync('secret', this.salt),
+      salt: this.salt,
     }));
   }
 

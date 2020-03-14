@@ -8,7 +8,7 @@ import { TypeOrmCrudService } from '@nestjsx/crud-typeorm';
 export class UserService extends TypeOrmCrudService<UserEntity> {
   constructor(
     @InjectRepository(UserEntity)
-    private readonly userRepo: Repository<UserEntity>,
+    public readonly userRepo: Repository<UserEntity>,
   ) {
     super(userRepo);
   }

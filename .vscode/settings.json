@@ -1,0 +1,13 @@
+{
+    "sqltools.connections": [
+        {
+            "database": "nestjs",
+            "dialect": "PostgreSQL",
+            "name": "nestJS",
+            "password": "password",
+            "port": 5432,
+            "server": "localhost",
+            "username": "rowad"
+        }
+    ]
+}

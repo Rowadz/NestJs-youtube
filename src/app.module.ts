@@ -14,6 +14,7 @@ import { UserFollowerModule } from './user-follower/user-follower.module';
 import { UserFollower } from './user-follower/userFollower.entity';
 import { FilesModule } from './files/files.module';
 import { FileEntity } from './files/files.entity';
+import { AuthModule } from './auth/auth.module';
 
 @Module({
   imports: [
@@ -40,6 +41,7 @@ import { FileEntity } from './files/files.entity';
     LikesModule,
     UserFollowerModule,
     FilesModule,
+    AuthModule,
   ],
   controllers: [AppController],
   providers: [AppService],

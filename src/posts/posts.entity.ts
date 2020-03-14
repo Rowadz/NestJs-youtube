@@ -91,6 +91,9 @@ export class PostEntity extends GenericEntity {
     { onUpdate: 'CASCADE', onDelete: 'CASCADE' },
   )
   files: FileEntity[];
+
+  @Column('int')
+  user_id: number;
 }
 
 export default new Promise<Repository<PostEntity>>(

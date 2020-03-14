@@ -1,7 +1,9 @@
-import { Controller, Get } from '@nestjs/common';
-import { Crud, CrudOptions, CrudController } from '@nestjsx/crud';
+import { Controller, Get, UseGuards } from '@nestjs/common';
+import { Crud, CrudOptions, CrudController, CrudAuth } from '@nestjsx/crud';
 import { PostEntity } from './posts.entity';
 import { PostsService } from './posts.service';
+import { JwtAuthGuard } from 'src/auth/jwt-auth.guard';
+import { UserEntity } from 'src/user/user.entity';
 
 @Crud({
   model: {
@@ -32,6 +34,14 @@ import { PostsService } from './posts.service';
     },
   },
 } as CrudOptions)
+@UseGuards(JwtAuthGuard)
+@CrudAuth({
+  property: 'user',
+  filter: (user: UserEntity) => {
+    console.log(user);
+    return { user_id: user.id };
+  },
+})
 @Controller('posts')
 export class PostsController implements CrudController<PostEntity> {
   constructor(public service: PostsService) {}

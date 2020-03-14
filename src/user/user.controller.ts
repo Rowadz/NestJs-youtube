@@ -1,13 +1,18 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, Post, UseGuards } from '@nestjs/common';
 import { UserService } from './user.service';
 import { UserEntity } from './user.entity';
-import { Crud } from '@nestjsx/crud';
+import { Crud, CrudAuth } from '@nestjsx/crud';
+import { JwtAuthGuard } from 'src/auth/jwt-auth.guard';
 
 @Crud({
   model: {
     type: UserEntity,
   },
+  routes: {
+    exclude: ['createOneBase', 'createManyBase'],
+  },
   query: {
+    exclude: ['salt'],
     limit: 10,
     alwaysPaginate: true,
     join: {
@@ -16,6 +21,7 @@ import { Crud } from '@nestjsx/crud';
       },
       'followers.following': {
         eager: true,
+        // exclude: ['salt']
         alias: 'user_followers',
       },
       following: {
@@ -28,7 +34,17 @@ import { Crud } from '@nestjsx/crud';
     },
   },
 })
+@UseGuards(JwtAuthGuard)
+@CrudAuth({
+  property: 'user',
+  filter: (user: UserEntity) => {
+    return { id: user.id };
+  },
+})
 @Controller('user')
 export class UserController {
   constructor(private readonly service: UserService) {}
+
+  @Post()
+  createUser() {}
 }
