@@ -1,0 +1,1182 @@
+execve("/usr/bin/vim", ["vim"], 0x7ffd611364b0 /* 57 vars */) = 0
+brk(NULL)                               = 0x55ca7ac84000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=75405, ...}) = 0
+mmap(NULL, 75405, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f5129da6000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\272\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1700792, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5129da4000
+mmap(NULL, 3789144, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f51297f4000
+mprotect(0x7f5129991000, 2093056, PROT_NONE) = 0
+mmap(0x7f5129b90000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19c000) = 0x7f5129b90000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\311\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=170784, ...}) = 0
+mmap(NULL, 2267936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f51295ca000
+mprotect(0x7f51295ef000, 2097152, PROT_NONE) = 0
+mmap(0x7f51297ef000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x25000) = 0x7f51297ef000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20b\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=154832, ...}) = 0
+mmap(NULL, 2259152, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f51293a2000
+mprotect(0x7f51293c7000, 2093056, PROT_NONE) = 0
+mmap(0x7f51295c6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x24000) = 0x7f51295c6000
+mmap(0x7f51295c8000, 6352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f51295c8000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libacl.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\33\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=31232, ...}) = 0
+mmap(NULL, 2126336, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f512919a000
+mprotect(0x7f51291a1000, 2093056, PROT_NONE) = 0
+mmap(0x7f51293a0000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f51293a0000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libgpm.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\34\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=22456, ...}) = 0
+mmap(NULL, 2118752, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5128f94000
+mprotect(0x7f5128f99000, 2093056, PROT_NONE) = 0
+mmap(0x7f5129198000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7f5129198000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14560, ...}) = 0
+mmap(NULL, 2109712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5128d90000
+mprotect(0x7f5128d93000, 2093056, PROT_NONE) = 0
+mmap(0x7f5128f92000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f5128f92000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libpython3.6m.so.1.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\230\6\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=4683728, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5129da2000
+mmap(NULL, 6989568, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f51286e5000
+mprotect(0x7f5128abc000, 2093056, PROT_NONE) = 0
+mmap(0x7f5128cbb000, 659456, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3d6000) = 0x7f5128cbb000
+mmap(0x7f5128d5c000, 210688, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5128d5c000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000b\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=144976, ...}) = 0
+mmap(NULL, 2221184, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f51284c6000
+mprotect(0x7f51284e0000, 2093056, PROT_NONE) = 0
+mmap(0x7f51286df000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19000) = 0x7f51286df000
+mmap(0x7f51286e1000, 13440, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f51286e1000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\34\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=2030544, ...}) = 0
+mmap(NULL, 4131552, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f51280d5000
+mprotect(0x7f51282bc000, 2097152, PROT_NONE) = 0
+mmap(0x7f51284bc000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e7000) = 0x7f51284bc000
+mmap(0x7f51284c2000, 15072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f51284c2000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \25\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=464824, ...}) = 0
+mmap(NULL, 2560264, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5127e63000
+mprotect(0x7f5127ed3000, 2097152, PROT_NONE) = 0
+mmap(0x7f51280d3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x70000) = 0x7f51280d3000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libattr.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\20\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=18680, ...}) = 0
+mmap(NULL, 2113752, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5127c5e000
+mprotect(0x7f5127c62000, 2093056, PROT_NONE) = 0
+mmap(0x7f5127e61000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f5127e61000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libexpat.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@8\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=202880, ...}) = 0
+mmap(NULL, 2298016, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5127a2c000
+mprotect(0x7f5127a5b000, 2097152, PROT_NONE) = 0
+mmap(0x7f5127c5b000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2f000) = 0x7f5127c5b000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\37\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=116960, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5129da0000
+mmap(NULL, 2212016, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f512780f000
+mprotect(0x7f512782b000, 2093056, PROT_NONE) = 0
+mmap(0x7f5127a2a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b000) = 0x7f5127a2a000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libutil.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=10592, ...}) = 0
+mmap(NULL, 2105616, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f512760c000
+mprotect(0x7f512760e000, 2093056, PROT_NONE) = 0
+mmap(0x7f512780d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f512780d000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5129d9e000
+arch_prctl(ARCH_SET_FS, 0x7f5129d9ef40) = 0
+mprotect(0x7f51284bc000, 16384, PROT_READ) = 0
+mprotect(0x7f512780d000, 4096, PROT_READ) = 0
+mprotect(0x7f5127a2a000, 4096, PROT_READ) = 0
+mprotect(0x7f5127c5b000, 8192, PROT_READ) = 0
+mprotect(0x7f5127e61000, 4096, PROT_READ) = 0
+mprotect(0x7f51286df000, 4096, PROT_READ) = 0
+mprotect(0x7f51280d3000, 4096, PROT_READ) = 0
+mprotect(0x7f5129b90000, 4096, PROT_READ) = 0
+mprotect(0x7f5128f92000, 4096, PROT_READ) = 0
+mprotect(0x7f5128cbb000, 16384, PROT_READ) = 0
+mprotect(0x7f5129198000, 4096, PROT_READ) = 0
+mprotect(0x7f51293a0000, 4096, PROT_READ) = 0
+mprotect(0x7f51295c6000, 4096, PROT_READ) = 0
+mprotect(0x7f51297ef000, 16384, PROT_READ) = 0
+mprotect(0x55ca798b6000, 53248, PROT_READ) = 0
+mprotect(0x7f5129db9000, 4096, PROT_READ) = 0
+munmap(0x7f5129da6000, 75405)           = 0
+set_tid_address(0x7f5129d9f210)         = 30878
+set_robust_list(0x7f5129d9f220, 24)     = 0
+rt_sigaction(SIGRTMIN, {sa_handler=0x7f51284cbcb0, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7f51284d8890}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {sa_handler=0x7f51284cbd50, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x7f51284d8890}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+statfs("/sys/fs/selinux", 0x7ffe18451be0) = -1 ENOENT (No such file or directory)
+statfs("/selinux", 0x7ffe18451be0)      = -1 ENOENT (No such file or directory)
+brk(NULL)                               = 0x55ca7ac84000
+brk(0x55ca7aca5000)                     = 0x55ca7aca5000
+openat(AT_FDCWD, "/proc/filesystems", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+read(3, "nodev\tsysfs\nnodev\ttmpfs\nnodev\tbd"..., 1024) = 431
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+access("/etc/selinux/config", F_OK)     = -1 ENOENT (No such file or directory)
+sigaltstack({ss_sp=0x55ca7ac84920, ss_flags=0, ss_size=8192}, NULL) = 0
+openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=10281936, ...}) = 0
+mmap(NULL, 10281936, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f5126c3d000
+close(3)                                = 0
+stat("/usr/share/vim/vim80", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+getcwd("/home/rowad/Desktop/yt/nest/NestJs-youtube", 4096) = 43
+chdir("/home/rowad/Desktop/yt/nest/NestJs-youtube") = 0
+chdir("/home/rowad")                    = 0
+getcwd("/home/rowad", 1025)             = 12
+chdir("/home/rowad/Desktop/yt/nest/NestJs-youtube") = 0
+sysinfo({uptime=6420, loads=[38656, 34560, 32160], totalram=10621657088, freeram=4097265664, sharedram=202420224, bufferram=54972416, totalswap=2147479552, freeswap=2147479552, procs=700, totalhigh=0, freehigh=0, mem_unit=1}) = 0
+prlimit64(0, RLIMIT_DATA, NULL, {rlim_cur=RLIM64_INFINITY, rlim_max=RLIM64_INFINITY}) = 0
+getuid()                                = 1000
+stat("/usr/share/vim", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+openat(AT_FDCWD, "/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2995, ...}) = 0
+read(3, "# Locale name alias data base.\n#"..., 4096) = 2995
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/share/vim/vim80/lang/en_US.UTF-8/LC_MESSAGES/vim.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/lang/en_US.utf8/LC_MESSAGES/vim.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/lang/en_US/LC_MESSAGES/vim.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/lang/en.UTF-8/LC_MESSAGES/vim.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/lang/en.utf8/LC_MESSAGES/vim.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/lang/en/LC_MESSAGES/vim.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale-langpack/en_US.UTF-8/LC_MESSAGES/vim.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale-langpack/en_US.utf8/LC_MESSAGES/vim.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale-langpack/en_US/LC_MESSAGES/vim.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale-langpack/en.UTF-8/LC_MESSAGES/vim.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale-langpack/en.utf8/LC_MESSAGES/vim.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/locale-langpack/en/LC_MESSAGES/vim.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+readlink("/proc/self/exe", "/usr/bin/vim.basic", 4096) = 18
+rt_sigaction(SIGWINCH, {sa_handler=0x55ca7957d9c0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f5128113f20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [WINCH], [], 8) = 0
+rt_sigaction(SIGTSTP, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f5128113f20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [TSTP], [], 8) = 0
+rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f5128113f20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [PIPE], [], 8) = 0
+rt_sigaction(SIGINT, {sa_handler=0x55ca7957d9f0, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f5128113f20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [INT], [], 8) = 0
+rt_sigaction(SIGALRM, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f5128113f20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [ALRM], [], 8) = 0
+rt_sigaction(SIGPWR, {sa_handler=0x55ca7957da20, sa_mask=[], sa_flags=SA_RESTORER, sa_restorer=0x7f5128113f20}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [PWR], [], 8) = 0
+rt_sigaction(SIGHUP, {sa_handler=0x55ca7957edf0, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7f51284d8890}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=0x55ca7957edf0, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7f51284d8890}, NULL, 8) = 0
+rt_sigaction(SIGILL, {sa_handler=0x55ca7957edf0, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7f51284d8890}, NULL, 8) = 0
+rt_sigaction(SIGTRAP, {sa_handler=0x55ca7957edf0, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7f51284d8890}, NULL, 8) = 0
+rt_sigaction(SIGABRT, {sa_handler=0x55ca7957edf0, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7f51284d8890}, NULL, 8) = 0
+rt_sigaction(SIGFPE, {sa_handler=0x55ca7957edf0, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7f51284d8890}, NULL, 8) = 0
+rt_sigaction(SIGBUS, {sa_handler=0x55ca7957edf0, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7f51284d8890}, NULL, 8) = 0
+rt_sigaction(SIGSEGV, {sa_handler=0x55ca7957edf0, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7f51284d8890}, NULL, 8) = 0
+rt_sigaction(SIGSYS, {sa_handler=0x55ca7957edf0, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7f51284d8890}, NULL, 8) = 0
+rt_sigaction(SIGTERM, {sa_handler=0x55ca7957edf0, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7f51284d8890}, NULL, 8) = 0
+rt_sigaction(SIGVTALRM, {sa_handler=0x55ca7957edf0, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7f51284d8890}, NULL, 8) = 0
+rt_sigaction(SIGPROF, {sa_handler=0x55ca7957edf0, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7f51284d8890}, NULL, 8) = 0
+rt_sigaction(SIGXCPU, {sa_handler=0x55ca7957edf0, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7f51284d8890}, NULL, 8) = 0
+rt_sigaction(SIGXFSZ, {sa_handler=0x55ca7957edf0, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7f51284d8890}, NULL, 8) = 0
+rt_sigaction(SIGUSR1, {sa_handler=0x55ca7957edf0, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7f51284d8890}, NULL, 8) = 0
+rt_sigaction(SIGUSR2, {sa_handler=0x55ca7957edf0, sa_mask=[], sa_flags=SA_RESTORER|SA_ONSTACK, sa_restorer=0x7f51284d8890}, NULL, 8) = 0
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+stat("/home/rowad/.terminfo", 0x55ca7ac96250) = -1 ENOENT (No such file or directory)
+stat("/etc/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/lib/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+access("/etc/terminfo/x/xterm-256color", R_OK) = -1 ENOENT (No such file or directory)
+access("/lib/terminfo/x/xterm-256color", R_OK) = 0
+openat(AT_FDCWD, "/lib/terminfo/x/xterm-256color", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=3525, ...}) = 0
+read(3, "\32\1%\0&\0\17\0\235\1\2\6xterm-256color|xterm"..., 4096) = 3525
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TIOCGWINSZ, {ws_row=35, ws_col=121, ws_xpixel=0, ws_ypixel=0}) = 0
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TIOCGWINSZ, {ws_row=35, ws_col=121, ws_xpixel=0, ws_ypixel=0}) = 0
+brk(0x55ca7acc9000)                     = 0x55ca7acc9000
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TIOCGWINSZ, {ws_row=35, ws_col=121, ws_xpixel=0, ws_ypixel=0}) = 0
+openat(AT_FDCWD, ".", O_RDONLY)         = 3
+fchdir(3)                               = 0
+chdir("/usr/share/vim")                 = 0
+getcwd("/usr/share/vim", 4096)          = 15
+fchdir(3)                               = 0
+close(3)                                = 0
+stat("/usr/share/vim/vimrc", {st_mode=S_IFREG|0644, st_size=2469, ...}) = 0
+openat(AT_FDCWD, "/usr/share/vim/vimrc", O_RDONLY) = 3
+fcntl(3, F_GETFD)                       = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(3, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+stat("/usr/share/vim/vimrc", {st_mode=S_IFREG|0644, st_size=2469, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=2469, ...}) = 0
+read(3, "\" All system-wide defaults are s"..., 4096) = 2469
+stat("/home/rowad/.vim/debian.vim", 0x7ffe18450db0) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vimfiles/debian.vim", 0x7ffe18450db0) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim80/debian.vim", {st_mode=S_IFREG|0644, st_size=2064, ...}) = 0
+stat("/usr/share/vim/vim80/debian.vim", {st_mode=S_IFREG|0644, st_size=2064, ...}) = 0
+openat(AT_FDCWD, ".", O_RDONLY)         = 4
+fchdir(4)                               = 0
+chdir("/usr/share/vim/vim80")           = 0
+getcwd("/usr/share/vim/vim80", 4096)    = 21
+fchdir(4)                               = 0
+close(4)                                = 0
+stat("/usr/share/vim/vim80/debian.vim", {st_mode=S_IFREG|0644, st_size=2064, ...}) = 0
+openat(AT_FDCWD, "/usr/share/vim/vim80/debian.vim", O_RDONLY) = 4
+fcntl(4, F_GETFD)                       = 0
+fcntl(4, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(4, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+stat("/usr/share/vim/vim80/debian.vim", {st_mode=S_IFREG|0644, st_size=2064, ...}) = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=2064, ...}) = 0
+read(4, "\" Debian system-wide default con"..., 4096) = 2064
+getuid()                                = 1000
+stat("/etc/papersize", {st_mode=S_IFREG|0664, st_size=7, ...}) = 0
+openat(AT_FDCWD, "/etc/papersize", O_RDONLY|O_NONBLOCK) = 5
+close(5)                                = 0
+openat(AT_FDCWD, "/etc/papersize", O_RDONLY) = 5
+fstat(5, {st_mode=S_IFREG|0664, st_size=7, ...}) = 0
+read(5, "letter\n", 4096)               = 7
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+read(4, "", 4096)                       = 0
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+stat("/usr/share/vim/vimfiles/after/debian.vim", 0x7ffe18450db0) = -1 ENOENT (No such file or directory)
+stat("/home/rowad/.vim/after/debian.vim", 0x7ffe18450db0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, ".", O_RDONLY)         = 4
+fchdir(4)                               = 0
+chdir("/usr/share/vim/vim80/syntax")    = 0
+getcwd("/usr/share/vim/vim80/syntax", 4096) = 28
+fchdir(4)                               = 0
+close(4)                                = 0
+stat("/usr/share/vim/vim80/syntax/syntax.vim", {st_mode=S_IFREG|0644, st_size=1228, ...}) = 0
+openat(AT_FDCWD, "/usr/share/vim/vim80/syntax/syntax.vim", O_RDONLY) = 4
+fcntl(4, F_GETFD)                       = 0
+fcntl(4, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(4, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+stat("/usr/share/vim/vim80/syntax/syntax.vim", {st_mode=S_IFREG|0644, st_size=1228, ...}) = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=1228, ...}) = 0
+read(4, "\" Vim syntax support file\n\" Main"..., 4096) = 1228
+stat("/home/rowad/.vim/syntax/synload.vim", 0x7ffe1844fa90) = -1 ENOENT (No such file or directory)
+stat("/var/lib/vim/addons/syntax/synload.vim", 0x7ffe1844fa90) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vimfiles/syntax/synload.vim", 0x7ffe1844fa90) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim80/syntax/synload.vim", {st_mode=S_IFREG|0644, st_size=1984, ...}) = 0
+stat("/usr/share/vim/vim80/syntax/synload.vim", {st_mode=S_IFREG|0644, st_size=1984, ...}) = 0
+openat(AT_FDCWD, ".", O_RDONLY)         = 5
+fchdir(5)                               = 0
+chdir("/usr/share/vim/vim80/syntax")    = 0
+getcwd("/usr/share/vim/vim80/syntax", 4096) = 28
+fchdir(5)                               = 0
+close(5)                                = 0
+stat("/usr/share/vim/vim80/syntax/synload.vim", {st_mode=S_IFREG|0644, st_size=1984, ...}) = 0
+openat(AT_FDCWD, "/usr/share/vim/vim80/syntax/synload.vim", O_RDONLY) = 5
+fcntl(5, F_GETFD)                       = 0
+fcntl(5, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(5, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+stat("/usr/share/vim/vim80/syntax/synload.vim", {st_mode=S_IFREG|0644, st_size=1984, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=1984, ...}) = 0
+read(5, "\" Vim syntax support file\n\" Main"..., 4096) = 1984
+stat("/home/rowad/.vim/syntax/syncolor.vim", 0x7ffe1844ef90) = -1 ENOENT (No such file or directory)
+stat("/var/lib/vim/addons/syntax/syncolor.vim", 0x7ffe1844ef90) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vimfiles/syntax/syncolor.vim", 0x7ffe1844ef90) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim80/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+stat("/usr/share/vim/vim80/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+openat(AT_FDCWD, ".", O_RDONLY)         = 6
+fchdir(6)                               = 0
+chdir("/usr/share/vim/vim80/syntax")    = 0
+getcwd("/usr/share/vim/vim80/syntax", 4096) = 28
+fchdir(6)                               = 0
+close(6)                                = 0
+stat("/usr/share/vim/vim80/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+openat(AT_FDCWD, "/usr/share/vim/vim80/syntax/syncolor.vim", O_RDONLY) = 6
+fcntl(6, F_GETFD)                       = 0
+fcntl(6, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+stat("/usr/share/vim/vim80/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+fstat(6, {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+read(6, "\" Vim syntax support file\n\" Main"..., 4096) = 4093
+openat(AT_FDCWD, "/usr/share/vim/vim80/rgb.txt", O_RDONLY) = 7
+fstat(7, {st_mode=S_IFREG|0644, st_size=17780, ...}) = 0
+read(7, "255 250 250\t\tsnow\n248 248 255\t\tg"..., 4096) = 4096
+read(7, "dYellow\n255 255 224\t\tlight yello"..., 4096) = 4096
+read(7, "8\t\tLightBlue2\n154 192 205\t\tLight"..., 4096) = 4096
+read(7, "1 159\t\tPaleVioletRed2\n205 104 13"..., 4096) = 4096
+read(7, "9 199 199\t\tgray78\n199 199 199\t\tg"..., 4096) = 1396
+read(7, "", 4096)                       = 0
+lseek(7, 0, SEEK_SET)                   = 0
+read(7, "255 250 250\t\tsnow\n248 248 255\t\tg"..., 4096) = 4096
+read(7, "dYellow\n255 255 224\t\tlight yello"..., 4096) = 4096
+read(7, "8\t\tLightBlue2\n154 192 205\t\tLight"..., 4096) = 4096
+read(7, "1 159\t\tPaleVioletRed2\n205 104 13"..., 4096) = 4096
+read(7, "9 199 199\t\tgray78\n199 199 199\t\tg"..., 4096) = 1396
+read(7, "", 4096)                       = 0
+close(7)                                = 0
+read(6, "", 4096)                       = 0
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+stat("/usr/share/vim/vimfiles/after/syntax/syncolor.vim", 0x7ffe1844ef90) = -1 ENOENT (No such file or directory)
+stat("/var/lib/vim/addons/after/syntax/syncolor.vim", 0x7ffe1844ef90) = -1 ENOENT (No such file or directory)
+stat("/home/rowad/.vim/after/syntax/syncolor.vim", 0x7ffe1844ef90) = -1 ENOENT (No such file or directory)
+read(5, "", 4096)                       = 0
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+stat("/home/rowad/.vim/filetype.vim", 0x7ffe1844fa60) = -1 ENOENT (No such file or directory)
+stat("/var/lib/vim/addons/filetype.vim", 0x7ffe1844fa60) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vimfiles/filetype.vim", 0x7ffe1844fa60) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim80/filetype.vim", {st_mode=S_IFREG|0644, st_size=56051, ...}) = 0
+stat("/usr/share/vim/vim80/filetype.vim", {st_mode=S_IFREG|0644, st_size=56051, ...}) = 0
+openat(AT_FDCWD, ".", O_RDONLY)         = 5
+fchdir(5)                               = 0
+chdir("/usr/share/vim/vim80")           = 0
+getcwd("/usr/share/vim/vim80", 4096)    = 21
+fchdir(5)                               = 0
+close(5)                                = 0
+stat("/usr/share/vim/vim80/filetype.vim", {st_mode=S_IFREG|0644, st_size=56051, ...}) = 0
+openat(AT_FDCWD, "/usr/share/vim/vim80/filetype.vim", O_RDONLY) = 5
+fcntl(5, F_GETFD)                       = 0
+fcntl(5, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(5, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+stat("/usr/share/vim/vim80/filetype.vim", {st_mode=S_IFREG|0644, st_size=56051, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=56051, ...}) = 0
+read(5, "\" Vim support file to detect fil"..., 4096) = 4096
+brk(0x55ca7aceb000)                     = 0x55ca7aceb000
+brk(0x55ca7ace9000)                     = 0x55ca7ace9000
+read(5, " be before catch *.lst)\nau BufNe"..., 4096) = 4096
+brk(0x55ca7ad0a000)                     = 0x55ca7ad0a000
+brk(0x55ca7ad08000)                     = 0x55ca7ad08000
+read(5, "mand Scripts (*.cmd too)\nau BufN"..., 4096) = 4096
+brk(0x55ca7ad2a000)                     = 0x55ca7ad2a000
+brk(0x55ca7ad28000)                     = 0x55ca7ad28000
+read(5, "(1).getline(2).getline(3).getlin"..., 4096) = 4096
+brk(0x55ca7ad49000)                     = 0x55ca7ad49000
+brk(0x55ca7ad48000)                     = 0x55ca7ad48000
+read(5, "e,BufRead *.gp,.gprc\t\tsetf gp\n\n\""..., 4096) = 4096
+brk(0x55ca7ad6a000)                     = 0x55ca7ad6a000
+brk(0x55ca7ad68000)                     = 0x55ca7ad68000
+read(5, "tab\n\n\" Inno Setup\nau BufNewFile,"..., 4096) = 4096
+brk(0x55ca7ad89000)                     = 0x55ca7ad89000
+brk(0x55ca7ad87000)                     = 0x55ca7ad87000
+read(5, ".config\tsetf manconf\n\n\" Maple V\n"..., 4096) = 4096
+brk(0x55ca7ada8000)                     = 0x55ca7ada8000
+brk(0x55ca7adc9000)                     = 0x55ca7adc9000
+brk(0x55ca7adc8000)                     = 0x55ca7adc8000
+read(5, "Read *.papp,*.pxml,*.pxsl\tsetf p"..., 4096) = 4096
+brk(0x55ca7ade9000)                     = 0x55ca7ade9000
+brk(0x55ca7ade7000)                     = 0x55ca7ade7000
+read(5, "\n\" Readline\nau BufNewFile,BufRea"..., 4096) = 4096
+read(5, "talog\t\t\tsetf catalog\nau BufNewFi"..., 4096) = 4096
+brk(0x55ca7ae09000)                     = 0x55ca7ae09000
+brk(0x55ca7ae07000)                     = 0x55ca7ae07000
+brk(0x55ca7ae28000)                     = 0x55ca7ae28000
+brk(0x55ca7ae27000)                     = 0x55ca7ae27000
+read(5, "nt,mount,path,service,socket,swa"..., 4096) = 4096
+brk(0x55ca7ae48000)                     = 0x55ca7ae48000
+brk(0x55ca7ae47000)                     = 0x55ca7ae47000
+read(5, "ufNewFile,BufRead *.wbt\t\t\tsetf w"..., 4096) = 4096
+read(5, "t * if !did_filetype() | runtime"..., 4096) = 4096
+brk(0x55ca7ae68000)                     = 0x55ca7ae68000
+brk(0x55ca7ae67000)                     = 0x55ca7ae67000
+read(5, "tcap')\n\t\\|endif\n\n\" ReDIF\n\" Only "..., 4096) = 2803
+brk(0x55ca7ae88000)                     = 0x55ca7ae88000
+brk(0x55ca7ae87000)                     = 0x55ca7ae87000
+openat(AT_FDCWD, "/home/rowad/.vim/ftdetect/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/var/lib/vim/addons/ftdetect/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/vim/vimfiles/ftdetect/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/ftdetect/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/vim/vimfiles/after/ftdetect/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/var/lib/vim/addons/after/ftdetect/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/rowad/.vim/after/ftdetect/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+read(5, "", 4096)                       = 0
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+stat("/usr/share/vim/vimfiles/after/filetype.vim", 0x7ffe1844fa60) = -1 ENOENT (No such file or directory)
+stat("/var/lib/vim/addons/after/filetype.vim", 0x7ffe1844fa60) = -1 ENOENT (No such file or directory)
+stat("/home/rowad/.vim/after/filetype.vim", 0x7ffe1844fa60) = -1 ENOENT (No such file or directory)
+read(4, "", 4096)                       = 0
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+stat("/etc/vim/vimrc.local", 0x7ffe18450570) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/vim/vimrc.local", O_RDONLY|O_NONBLOCK) = -1 ENOENT (No such file or directory)
+read(3, "", 4096)                       = 0
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, ".", O_RDONLY)         = 3
+fchdir(3)                               = 0
+chdir("/home/rowad")                    = 0
+getcwd("/home/rowad", 4096)             = 12
+fchdir(3)                               = 0
+close(3)                                = 0
+stat("/home/rowad/.vimrc", 0x7ffe184519b0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/rowad/.vimrc", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/rowad/_vimrc", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, ".", O_RDONLY)         = 3
+fchdir(3)                               = 0
+chdir("/home/rowad/.vim")               = -1 ENOENT (No such file or directory)
+getcwd("/home/rowad/Desktop/yt/nest/NestJs-youtube", 4096) = 43
+fchdir(3)                               = 0
+close(3)                                = 0
+stat("/home/rowad/.vim/vimrc", 0x7ffe184519b0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/rowad/.vim/vimrc", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, ".", O_RDONLY)         = 3
+fchdir(3)                               = 0
+chdir("/home/rowad")                    = 0
+getcwd("/home/rowad", 4096)             = 12
+fchdir(3)                               = 0
+close(3)                                = 0
+stat("/home/rowad/.exrc", 0x7ffe184519b0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/rowad/.exrc", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, ".", O_RDONLY)         = 3
+fchdir(3)                               = 0
+chdir("/usr/share/vim/vim80")           = 0
+getcwd("/usr/share/vim/vim80", 4096)    = 21
+fchdir(3)                               = 0
+close(3)                                = 0
+stat("/usr/share/vim/vim80/defaults.vim", {st_mode=S_IFREG|0644, st_size=4120, ...}) = 0
+openat(AT_FDCWD, "/usr/share/vim/vim80/defaults.vim", O_RDONLY) = 3
+fcntl(3, F_GETFD)                       = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(3, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+stat("/usr/share/vim/vim80/defaults.vim", {st_mode=S_IFREG|0644, st_size=4120, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=4120, ...}) = 0
+read(3, "\" The default vimrc file.\n\"\n\" Ma"..., 4096) = 4096
+openat(AT_FDCWD, ".", O_RDONLY)         = 4
+fchdir(4)                               = 0
+chdir("/usr/share/vim/vim80/syntax")    = 0
+getcwd("/usr/share/vim/vim80/syntax", 4096) = 28
+fchdir(4)                               = 0
+close(4)                                = 0
+stat("/usr/share/vim/vim80/syntax/syntax.vim", {st_mode=S_IFREG|0644, st_size=1228, ...}) = 0
+openat(AT_FDCWD, "/usr/share/vim/vim80/syntax/syntax.vim", O_RDONLY) = 4
+fcntl(4, F_GETFD)                       = 0
+fcntl(4, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(4, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+stat("/usr/share/vim/vim80/syntax/syntax.vim", {st_mode=S_IFREG|0644, st_size=1228, ...}) = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=1228, ...}) = 0
+read(4, "\" Vim syntax support file\n\" Main"..., 4096) = 1228
+stat("/usr/share/vim/vim80/syntax/syntax.vim", {st_mode=S_IFREG|0644, st_size=1228, ...}) = 0
+openat(AT_FDCWD, ".", O_RDONLY)         = 5
+fchdir(5)                               = 0
+chdir("/usr/share/vim/vim80/syntax")    = 0
+getcwd("/usr/share/vim/vim80/syntax", 4096) = 28
+fchdir(5)                               = 0
+close(5)                                = 0
+stat("/usr/share/vim/vim80/syntax/nosyntax.vim", {st_mode=S_IFREG|0644, st_size=755, ...}) = 0
+openat(AT_FDCWD, "/usr/share/vim/vim80/syntax/nosyntax.vim", O_RDONLY) = 5
+fcntl(5, F_GETFD)                       = 0
+fcntl(5, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(5, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+stat("/usr/share/vim/vim80/syntax/nosyntax.vim", {st_mode=S_IFREG|0644, st_size=755, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=755, ...}) = 0
+read(5, "\" Vim syntax support file\n\" Main"..., 4096) = 755
+read(5, "", 4096)                       = 0
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+stat("/home/rowad/.vim/syntax/synload.vim", 0x7ffe1844fa90) = -1 ENOENT (No such file or directory)
+stat("/var/lib/vim/addons/syntax/synload.vim", 0x7ffe1844fa90) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vimfiles/syntax/synload.vim", 0x7ffe1844fa90) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim80/syntax/synload.vim", {st_mode=S_IFREG|0644, st_size=1984, ...}) = 0
+stat("/usr/share/vim/vim80/syntax/synload.vim", {st_mode=S_IFREG|0644, st_size=1984, ...}) = 0
+openat(AT_FDCWD, ".", O_RDONLY)         = 5
+fchdir(5)                               = 0
+chdir("/usr/share/vim/vim80/syntax")    = 0
+getcwd("/usr/share/vim/vim80/syntax", 4096) = 28
+fchdir(5)                               = 0
+close(5)                                = 0
+stat("/usr/share/vim/vim80/syntax/synload.vim", {st_mode=S_IFREG|0644, st_size=1984, ...}) = 0
+openat(AT_FDCWD, "/usr/share/vim/vim80/syntax/synload.vim", O_RDONLY) = 5
+fcntl(5, F_GETFD)                       = 0
+fcntl(5, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(5, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+stat("/usr/share/vim/vim80/syntax/synload.vim", {st_mode=S_IFREG|0644, st_size=1984, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=1984, ...}) = 0
+read(5, "\" Vim syntax support file\n\" Main"..., 4096) = 1984
+stat("/home/rowad/.vim/syntax/syncolor.vim", 0x7ffe1844ef90) = -1 ENOENT (No such file or directory)
+stat("/var/lib/vim/addons/syntax/syncolor.vim", 0x7ffe1844ef90) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vimfiles/syntax/syncolor.vim", 0x7ffe1844ef90) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim80/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+stat("/usr/share/vim/vim80/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+openat(AT_FDCWD, ".", O_RDONLY)         = 6
+fchdir(6)                               = 0
+chdir("/usr/share/vim/vim80/syntax")    = 0
+getcwd("/usr/share/vim/vim80/syntax", 4096) = 28
+fchdir(6)                               = 0
+close(6)                                = 0
+stat("/usr/share/vim/vim80/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+openat(AT_FDCWD, "/usr/share/vim/vim80/syntax/syncolor.vim", O_RDONLY) = 6
+fcntl(6, F_GETFD)                       = 0
+fcntl(6, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(6, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+stat("/usr/share/vim/vim80/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+fstat(6, {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+read(6, "\" Vim syntax support file\n\" Main"..., 4096) = 4093
+read(6, "", 4096)                       = 0
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+stat("/usr/share/vim/vimfiles/after/syntax/syncolor.vim", 0x7ffe1844ef90) = -1 ENOENT (No such file or directory)
+stat("/var/lib/vim/addons/after/syntax/syncolor.vim", 0x7ffe1844ef90) = -1 ENOENT (No such file or directory)
+stat("/home/rowad/.vim/after/syntax/syncolor.vim", 0x7ffe1844ef90) = -1 ENOENT (No such file or directory)
+read(5, "", 4096)                       = 0
+read(5, "", 4096)                       = 0
+close(5)                                = 0
+read(4, "", 4096)                       = 0
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+stat("/home/rowad/.vim/filetype.vim", 0x7ffe18450d80) = -1 ENOENT (No such file or directory)
+stat("/var/lib/vim/addons/filetype.vim", 0x7ffe18450d80) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vimfiles/filetype.vim", 0x7ffe18450d80) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim80/filetype.vim", {st_mode=S_IFREG|0644, st_size=56051, ...}) = 0
+stat("/usr/share/vim/vim80/filetype.vim", {st_mode=S_IFREG|0644, st_size=56051, ...}) = 0
+openat(AT_FDCWD, ".", O_RDONLY)         = 4
+fchdir(4)                               = 0
+chdir("/usr/share/vim/vim80")           = 0
+getcwd("/usr/share/vim/vim80", 4096)    = 21
+fchdir(4)                               = 0
+close(4)                                = 0
+stat("/usr/share/vim/vim80/filetype.vim", {st_mode=S_IFREG|0644, st_size=56051, ...}) = 0
+openat(AT_FDCWD, "/usr/share/vim/vim80/filetype.vim", O_RDONLY) = 4
+fcntl(4, F_GETFD)                       = 0
+fcntl(4, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(4, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+stat("/usr/share/vim/vim80/filetype.vim", {st_mode=S_IFREG|0644, st_size=56051, ...}) = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=56051, ...}) = 0
+read(4, "\" Vim support file to detect fil"..., 4096) = 4096
+close(4)                                = 0
+stat("/usr/share/vim/vimfiles/after/filetype.vim", 0x7ffe18450d80) = -1 ENOENT (No such file or directory)
+stat("/var/lib/vim/addons/after/filetype.vim", 0x7ffe18450d80) = -1 ENOENT (No such file or directory)
+stat("/home/rowad/.vim/after/filetype.vim", 0x7ffe18450d80) = -1 ENOENT (No such file or directory)
+stat("/home/rowad/.vim/ftplugin.vim", 0x7ffe18450d80) = -1 ENOENT (No such file or directory)
+stat("/var/lib/vim/addons/ftplugin.vim", 0x7ffe18450d80) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vimfiles/ftplugin.vim", 0x7ffe18450d80) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim80/ftplugin.vim", {st_mode=S_IFREG|0644, st_size=971, ...}) = 0
+stat("/usr/share/vim/vim80/ftplugin.vim", {st_mode=S_IFREG|0644, st_size=971, ...}) = 0
+openat(AT_FDCWD, ".", O_RDONLY)         = 4
+fchdir(4)                               = 0
+chdir("/usr/share/vim/vim80")           = 0
+getcwd("/usr/share/vim/vim80", 4096)    = 21
+fchdir(4)                               = 0
+close(4)                                = 0
+stat("/usr/share/vim/vim80/ftplugin.vim", {st_mode=S_IFREG|0644, st_size=971, ...}) = 0
+openat(AT_FDCWD, "/usr/share/vim/vim80/ftplugin.vim", O_RDONLY) = 4
+fcntl(4, F_GETFD)                       = 0
+fcntl(4, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(4, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+stat("/usr/share/vim/vim80/ftplugin.vim", {st_mode=S_IFREG|0644, st_size=971, ...}) = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=971, ...}) = 0
+read(4, "\" Vim support file to switch on "..., 4096) = 971
+read(4, "", 4096)                       = 0
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+stat("/usr/share/vim/vimfiles/after/ftplugin.vim", 0x7ffe18450d80) = -1 ENOENT (No such file or directory)
+stat("/var/lib/vim/addons/after/ftplugin.vim", 0x7ffe18450d80) = -1 ENOENT (No such file or directory)
+stat("/home/rowad/.vim/after/ftplugin.vim", 0x7ffe18450d80) = -1 ENOENT (No such file or directory)
+stat("/home/rowad/.vim/indent.vim", 0x7ffe18450d80) = -1 ENOENT (No such file or directory)
+stat("/var/lib/vim/addons/indent.vim", 0x7ffe18450d80) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vimfiles/indent.vim", 0x7ffe18450d80) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim80/indent.vim", {st_mode=S_IFREG|0644, st_size=767, ...}) = 0
+stat("/usr/share/vim/vim80/indent.vim", {st_mode=S_IFREG|0644, st_size=767, ...}) = 0
+openat(AT_FDCWD, ".", O_RDONLY)         = 4
+fchdir(4)                               = 0
+chdir("/usr/share/vim/vim80")           = 0
+getcwd("/usr/share/vim/vim80", 4096)    = 21
+fchdir(4)                               = 0
+close(4)                                = 0
+stat("/usr/share/vim/vim80/indent.vim", {st_mode=S_IFREG|0644, st_size=767, ...}) = 0
+openat(AT_FDCWD, "/usr/share/vim/vim80/indent.vim", O_RDONLY) = 4
+fcntl(4, F_GETFD)                       = 0
+fcntl(4, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(4, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+stat("/usr/share/vim/vim80/indent.vim", {st_mode=S_IFREG|0644, st_size=767, ...}) = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=767, ...}) = 0
+read(4, "\" Vim support file to switch on "..., 4096) = 767
+read(4, "", 4096)                       = 0
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+stat("/usr/share/vim/vimfiles/after/indent.vim", 0x7ffe18450d80) = -1 ENOENT (No such file or directory)
+stat("/var/lib/vim/addons/after/indent.vim", 0x7ffe18450d80) = -1 ENOENT (No such file or directory)
+stat("/home/rowad/.vim/after/indent.vim", 0x7ffe18450d80) = -1 ENOENT (No such file or directory)
+read(3, "  set nolangremap\nendif\n", 4096) = 24
+read(3, "", 4096)                       = 0
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/home/rowad/.vim/pack/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/vim/vimfiles/pack/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/pack/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents(3, /* 3 entries */, 32768)     = 72
+openat(AT_FDCWD, "/usr/share/vim/vim80/pack/dist/start/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/share/vim/vimfiles/after/pack/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/rowad/.vim/after/pack/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/rowad/.vim/plugin/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/rowad/.vim/plugin/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/var/lib/vim/addons/plugin/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/var/lib/vim/addons/plugin/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/vim/vimfiles/plugin/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/vim/vimfiles/plugin/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents(3, /* 15 entries */, 32768)    = 520
+stat("/usr/share/vim/vim80/plugin/vimballPlugin.vim", {st_mode=S_IFREG|0644, st_size=2898, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/vimballPlugin.vim", {st_mode=S_IFREG|0644, st_size=2898, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/vimballPlugin.vim", {st_mode=S_IFREG|0644, st_size=2898, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/tarPlugin.vim", {st_mode=S_IFREG|0644, st_size=2271, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/tarPlugin.vim", {st_mode=S_IFREG|0644, st_size=2271, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/tarPlugin.vim", {st_mode=S_IFREG|0644, st_size=2271, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/spellfile.vim", {st_mode=S_IFREG|0644, st_size=499, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/spellfile.vim", {st_mode=S_IFREG|0644, st_size=499, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/spellfile.vim", {st_mode=S_IFREG|0644, st_size=499, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/logiPat.vim", {st_mode=S_IFREG|0644, st_size=10269, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/logiPat.vim", {st_mode=S_IFREG|0644, st_size=10269, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/logiPat.vim", {st_mode=S_IFREG|0644, st_size=10269, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/matchparen.vim", {st_mode=S_IFREG|0644, st_size=6746, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/matchparen.vim", {st_mode=S_IFREG|0644, st_size=6746, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/matchparen.vim", {st_mode=S_IFREG|0644, st_size=6746, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/zipPlugin.vim", {st_mode=S_IFREG|0644, st_size=2510, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/zipPlugin.vim", {st_mode=S_IFREG|0644, st_size=2510, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/zipPlugin.vim", {st_mode=S_IFREG|0644, st_size=2510, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/netrwPlugin.vim", {st_mode=S_IFREG|0644, st_size=10440, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/netrwPlugin.vim", {st_mode=S_IFREG|0644, st_size=10440, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/netrwPlugin.vim", {st_mode=S_IFREG|0644, st_size=10440, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/gzip.vim", {st_mode=S_IFREG|0644, st_size=2499, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/gzip.vim", {st_mode=S_IFREG|0644, st_size=2499, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/gzip.vim", {st_mode=S_IFREG|0644, st_size=2499, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/rrhelper.vim", {st_mode=S_IFREG|0644, st_size=1414, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/rrhelper.vim", {st_mode=S_IFREG|0644, st_size=1414, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/rrhelper.vim", {st_mode=S_IFREG|0644, st_size=1414, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/manpager.vim", {st_mode=S_IFREG|0644, st_size=784, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/manpager.vim", {st_mode=S_IFREG|0644, st_size=784, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/manpager.vim", {st_mode=S_IFREG|0644, st_size=784, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/getscriptPlugin.vim", {st_mode=S_IFREG|0644, st_size=1393, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/getscriptPlugin.vim", {st_mode=S_IFREG|0644, st_size=1393, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/getscriptPlugin.vim", {st_mode=S_IFREG|0644, st_size=1393, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/tohtml.vim", {st_mode=S_IFREG|0644, st_size=9924, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/tohtml.vim", {st_mode=S_IFREG|0644, st_size=9924, ...}) = 0
+stat("/usr/share/vim/vim80/plugin/tohtml.vim", {st_mode=S_IFREG|0644, st_size=9924, ...}) = 0
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents(3, /* 15 entries */, 32768)    = 520
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/vimballPlugin.vim/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOTDIR (Not a directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/vimballPlugin.vim/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOTDIR (Not a directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/tarPlugin.vim/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOTDIR (Not a directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/tarPlugin.vim/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOTDIR (Not a directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/spellfile.vim/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOTDIR (Not a directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/spellfile.vim/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOTDIR (Not a directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/logiPat.vim/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOTDIR (Not a directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/logiPat.vim/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOTDIR (Not a directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/matchparen.vim/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOTDIR (Not a directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/matchparen.vim/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOTDIR (Not a directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/zipPlugin.vim/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOTDIR (Not a directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/zipPlugin.vim/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOTDIR (Not a directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/netrwPlugin.vim/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOTDIR (Not a directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/netrwPlugin.vim/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOTDIR (Not a directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/gzip.vim/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOTDIR (Not a directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/gzip.vim/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOTDIR (Not a directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/rrhelper.vim/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOTDIR (Not a directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/rrhelper.vim/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOTDIR (Not a directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/manpager.vim/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOTDIR (Not a directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/manpager.vim/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOTDIR (Not a directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/README.txt/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOTDIR (Not a directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/README.txt/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOTDIR (Not a directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/getscriptPlugin.vim/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOTDIR (Not a directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/getscriptPlugin.vim/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOTDIR (Not a directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/tohtml.vim/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOTDIR (Not a directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/tohtml.vim/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOTDIR (Not a directory)
+getdents(3, /* 0 entries */, 32768)     = 0
+close(3)                                = 0
+openat(AT_FDCWD, ".", O_RDONLY)         = 3
+fchdir(3)                               = 0
+chdir("/usr/share/vim/vim80/plugin")    = 0
+getcwd("/usr/share/vim/vim80/plugin", 4096) = 28
+fchdir(3)                               = 0
+close(3)                                = 0
+stat("/usr/share/vim/vim80/plugin/getscriptPlugin.vim", {st_mode=S_IFREG|0644, st_size=1393, ...}) = 0
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/getscriptPlugin.vim", O_RDONLY) = 3
+fcntl(3, F_GETFD)                       = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(3, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+stat("/usr/share/vim/vim80/plugin/getscriptPlugin.vim", {st_mode=S_IFREG|0644, st_size=1393, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=1393, ...}) = 0
+read(3, "\" ------------------------------"..., 4096) = 1393
+read(3, "", 4096)                       = 0
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, ".", O_RDONLY)         = 3
+fchdir(3)                               = 0
+chdir("/usr/share/vim/vim80/plugin")    = 0
+getcwd("/usr/share/vim/vim80/plugin", 4096) = 28
+fchdir(3)                               = 0
+close(3)                                = 0
+stat("/usr/share/vim/vim80/plugin/gzip.vim", {st_mode=S_IFREG|0644, st_size=2499, ...}) = 0
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/gzip.vim", O_RDONLY) = 3
+fcntl(3, F_GETFD)                       = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(3, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+stat("/usr/share/vim/vim80/plugin/gzip.vim", {st_mode=S_IFREG|0644, st_size=2499, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=2499, ...}) = 0
+read(3, "\" Vim plugin for editing compres"..., 4096) = 2499
+read(3, "", 4096)                       = 0
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, ".", O_RDONLY)         = 3
+fchdir(3)                               = 0
+chdir("/usr/share/vim/vim80/plugin")    = 0
+getcwd("/usr/share/vim/vim80/plugin", 4096) = 28
+fchdir(3)                               = 0
+close(3)                                = 0
+stat("/usr/share/vim/vim80/plugin/logiPat.vim", {st_mode=S_IFREG|0644, st_size=10269, ...}) = 0
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/logiPat.vim", O_RDONLY) = 3
+fcntl(3, F_GETFD)                       = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(3, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+stat("/usr/share/vim/vim80/plugin/logiPat.vim", {st_mode=S_IFREG|0644, st_size=10269, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=10269, ...}) = 0
+read(3, "\" LogiPat: Boolean logical patte"..., 4096) = 4096
+read(3, "  let s:nopstack= 0\n  endif\n\n  \""..., 4096) = 4096
+read(3, "tern {{{2\nfun! s:LP_Not(pat)\n\"  "..., 4096) = 2077
+read(3, "", 4096)                       = 0
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, ".", O_RDONLY)         = 3
+fchdir(3)                               = 0
+chdir("/usr/share/vim/vim80/plugin")    = 0
+getcwd("/usr/share/vim/vim80/plugin", 4096) = 28
+fchdir(3)                               = 0
+close(3)                                = 0
+stat("/usr/share/vim/vim80/plugin/manpager.vim", {st_mode=S_IFREG|0644, st_size=784, ...}) = 0
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/manpager.vim", O_RDONLY) = 3
+fcntl(3, F_GETFD)                       = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(3, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+stat("/usr/share/vim/vim80/plugin/manpager.vim", {st_mode=S_IFREG|0644, st_size=784, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=784, ...}) = 0
+read(3, "\" Vim plugin for using Vim as ma"..., 4096) = 784
+close(3)                                = 0
+openat(AT_FDCWD, ".", O_RDONLY)         = 3
+fchdir(3)                               = 0
+chdir("/usr/share/vim/vim80/plugin")    = 0
+getcwd("/usr/share/vim/vim80/plugin", 4096) = 28
+fchdir(3)                               = 0
+close(3)                                = 0
+stat("/usr/share/vim/vim80/plugin/matchparen.vim", {st_mode=S_IFREG|0644, st_size=6746, ...}) = 0
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/matchparen.vim", O_RDONLY) = 3
+fcntl(3, F_GETFD)                       = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(3, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+stat("/usr/share/vim/vim80/plugin/matchparen.vim", {st_mode=S_IFREG|0644, st_size=6746, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=6746, ...}) = 0
+read(3, "\" Vim plugin for showing matchin"..., 4096) = 4096
+read(3, "hparen_timeout\") ? b:matchparen_"..., 4096) = 2650
+read(3, "", 4096)                       = 0
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, ".", O_RDONLY)         = 3
+fchdir(3)                               = 0
+chdir("/usr/share/vim/vim80/plugin")    = 0
+getcwd("/usr/share/vim/vim80/plugin", 4096) = 28
+fchdir(3)                               = 0
+close(3)                                = 0
+stat("/usr/share/vim/vim80/plugin/netrwPlugin.vim", {st_mode=S_IFREG|0644, st_size=10440, ...}) = 0
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/netrwPlugin.vim", O_RDONLY) = 3
+fcntl(3, F_GETFD)                       = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(3, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+stat("/usr/share/vim/vim80/plugin/netrwPlugin.vim", {st_mode=S_IFREG|0644, st_size=10440, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=10440, ...}) = 0
+read(3, "\" netrwPlugin.vim: Handles file "..., 4096) = 4096
+brk(0x55ca7aea8000)                     = 0x55ca7aea8000
+brk(0x55ca7aea7000)                     = 0x55ca7aea7000
+read(3, ">0,<q-args>)\ncom! -nargs=* -bar "..., 4096) = 4096
+read(3, "      listing when appropriate.\n"..., 4096) = 2248
+read(3, "", 4096)                       = 0
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, ".", O_RDONLY)         = 3
+fchdir(3)                               = 0
+chdir("/usr/share/vim/vim80/plugin")    = 0
+getcwd("/usr/share/vim/vim80/plugin", 4096) = 28
+fchdir(3)                               = 0
+close(3)                                = 0
+stat("/usr/share/vim/vim80/plugin/rrhelper.vim", {st_mode=S_IFREG|0644, st_size=1414, ...}) = 0
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/rrhelper.vim", O_RDONLY) = 3
+fcntl(3, F_GETFD)                       = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(3, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+stat("/usr/share/vim/vim80/plugin/rrhelper.vim", {st_mode=S_IFREG|0644, st_size=1414, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=1414, ...}) = 0
+read(3, "\" Vim plugin with helper functio"..., 4096) = 1414
+close(3)                                = 0
+openat(AT_FDCWD, ".", O_RDONLY)         = 3
+fchdir(3)                               = 0
+chdir("/usr/share/vim/vim80/plugin")    = 0
+getcwd("/usr/share/vim/vim80/plugin", 4096) = 28
+fchdir(3)                               = 0
+close(3)                                = 0
+stat("/usr/share/vim/vim80/plugin/spellfile.vim", {st_mode=S_IFREG|0644, st_size=499, ...}) = 0
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/spellfile.vim", O_RDONLY) = 3
+fcntl(3, F_GETFD)                       = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(3, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+stat("/usr/share/vim/vim80/plugin/spellfile.vim", {st_mode=S_IFREG|0644, st_size=499, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=499, ...}) = 0
+read(3, "\" Vim plugin for downloading spe"..., 4096) = 499
+read(3, "", 4096)                       = 0
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, ".", O_RDONLY)         = 3
+fchdir(3)                               = 0
+chdir("/usr/share/vim/vim80/plugin")    = 0
+getcwd("/usr/share/vim/vim80/plugin", 4096) = 28
+fchdir(3)                               = 0
+close(3)                                = 0
+stat("/usr/share/vim/vim80/plugin/tarPlugin.vim", {st_mode=S_IFREG|0644, st_size=2271, ...}) = 0
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/tarPlugin.vim", O_RDONLY) = 3
+fcntl(3, F_GETFD)                       = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(3, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+stat("/usr/share/vim/vim80/plugin/tarPlugin.vim", {st_mode=S_IFREG|0644, st_size=2271, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=2271, ...}) = 0
+read(3, "\" tarPlugin.vim -- a Vim plugin "..., 4096) = 2271
+read(3, "", 4096)                       = 0
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, ".", O_RDONLY)         = 3
+fchdir(3)                               = 0
+chdir("/usr/share/vim/vim80/plugin")    = 0
+getcwd("/usr/share/vim/vim80/plugin", 4096) = 28
+fchdir(3)                               = 0
+close(3)                                = 0
+stat("/usr/share/vim/vim80/plugin/tohtml.vim", {st_mode=S_IFREG|0644, st_size=9924, ...}) = 0
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/tohtml.vim", O_RDONLY) = 3
+fcntl(3, F_GETFD)                       = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(3, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+stat("/usr/share/vim/vim80/plugin/tohtml.vim", {st_mode=S_IFREG|0644, st_size=9924, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=9924, ...}) = 0
+read(3, "\" Vim plugin for converting a sy"..., 4096) = 4096
+read(3, "er: allow g:html_font to\n\"      "..., 4096) = 4096
+read(3, "move use of setwinvar() function"..., 4096) = 1732
+read(3, "", 4096)                       = 0
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, ".", O_RDONLY)         = 3
+fchdir(3)                               = 0
+chdir("/usr/share/vim/vim80/plugin")    = 0
+getcwd("/usr/share/vim/vim80/plugin", 4096) = 28
+fchdir(3)                               = 0
+close(3)                                = 0
+stat("/usr/share/vim/vim80/plugin/vimballPlugin.vim", {st_mode=S_IFREG|0644, st_size=2898, ...}) = 0
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/vimballPlugin.vim", O_RDONLY) = 3
+fcntl(3, F_GETFD)                       = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(3, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+stat("/usr/share/vim/vim80/plugin/vimballPlugin.vim", {st_mode=S_IFREG|0644, st_size=2898, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=2898, ...}) = 0
+read(3, "\" vimballPlugin : construct a fi"..., 4096) = 2898
+read(3, "", 4096)                       = 0
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, ".", O_RDONLY)         = 3
+fchdir(3)                               = 0
+chdir("/usr/share/vim/vim80/plugin")    = 0
+getcwd("/usr/share/vim/vim80/plugin", 4096) = 28
+fchdir(3)                               = 0
+close(3)                                = 0
+stat("/usr/share/vim/vim80/plugin/zipPlugin.vim", {st_mode=S_IFREG|0644, st_size=2510, ...}) = 0
+openat(AT_FDCWD, "/usr/share/vim/vim80/plugin/zipPlugin.vim", O_RDONLY) = 3
+fcntl(3, F_GETFD)                       = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(3, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+stat("/usr/share/vim/vim80/plugin/zipPlugin.vim", {st_mode=S_IFREG|0644, st_size=2510, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=2510, ...}) = 0
+read(3, "\" zipPlugin.vim: Handles browsin"..., 4096) = 2510
+read(3, "", 4096)                       = 0
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/home/rowad/.vim/pack/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/vim/vimfiles/pack/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/vim/vim80/pack/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+fstat(3, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getdents(3, /* 3 entries */, 32768)     = 72
+brk(0x55ca7aec8000)                     = 0x55ca7aec8000
+brk(0x55ca7aec5000)                     = 0x55ca7aec5000
+openat(AT_FDCWD, "/usr/share/vim/vim80/pack/dist/start/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+getdents(3, /* 0 entries */, 32768)     = 0
+brk(0x55ca7aebd000)                     = 0x55ca7aebd000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/share/vim/vimfiles/after/pack/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/rowad/.vim/after/pack/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/vim/vimfiles/after/plugin/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/usr/share/vim/vimfiles/after/plugin/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/var/lib/vim/addons/after/plugin/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/var/lib/vim/addons/after/plugin/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/rowad/.vim/after/plugin/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/rowad/.vim/after/plugin/", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/home/rowad/.viminfo", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0600, st_size=10799, ...}) = 0
+read(3, "# This viminfo file was generate"..., 4096) = 4096
+read(3, "1  8  ~/.vimsrc\n|4,39,1,8,158488"..., 4096) = 4096
+read(3, "pp.service.ts\n|4,39,27,0,1584885"..., 4096) = 2607
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, SNDCTL_TMR_START or TCSETS, {B38400 opost -isig -icanon -echo ...}) = 0
+ioctl(0, TCGETS, {B38400 opost -isig -icanon -echo ...}) = 0
+write(1, "\33[?2004h", 8)               = 8
+write(1, "\33[?1049h\33[22;0;0t\33[?1h\33=\33[?2004h", 32) = 32
+ioctl(1, TCGETS, {B38400 opost -isig -icanon -echo ...}) = 0
+ioctl(0, TCGETS, {B38400 opost -isig -icanon -echo ...}) = 0
+getuid()                                = 1000
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+openat(AT_FDCWD, "/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=556, ...}) = 0
+read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 556
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=75405, ...}) = 0
+mmap(NULL, 75405, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f5129da6000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libnss_compat.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\22\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=39744, ...}) = 0
+mmap(NULL, 2136256, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5126a33000
+mprotect(0x7f5126a3b000, 2097152, PROT_NONE) = 0
+mmap(0x7f5126c3b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x7f5126c3b000
+close(3)                                = 0
+mprotect(0x7f5126c3b000, 4096, PROT_READ) = 0
+munmap(0x7f5129da6000, 75405)           = 0
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=75405, ...}) = 0
+mmap(NULL, 75405, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f5129da6000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libnss_nis.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p \0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47576, ...}) = 0
+mmap(NULL, 2143624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5126827000
+mprotect(0x7f5126832000, 2093056, PROT_NONE) = 0
+mmap(0x7f5126a31000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f5126a31000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libnsl.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220@\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=97176, ...}) = 0
+mmap(NULL, 2202200, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f512660d000
+mprotect(0x7f5126624000, 2093056, PROT_NONE) = 0
+mmap(0x7f5126823000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7f5126823000
+mmap(0x7f5126825000, 6744, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5126825000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P#\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47568, ...}) = 0
+mmap(NULL, 2168632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f51263fb000
+mprotect(0x7f5126406000, 2093056, PROT_NONE) = 0
+mmap(0x7f5126605000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f5126605000
+mmap(0x7f5126607000, 22328, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5126607000
+close(3)                                = 0
+mprotect(0x7f5126605000, 4096, PROT_READ) = 0
+mprotect(0x7f5126823000, 4096, PROT_READ) = 0
+mprotect(0x7f5126a31000, 4096, PROT_READ) = 0
+munmap(0x7f5129da6000, 75405)           = 0
+openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 3
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=2484, ...}) = 0
+mmap(NULL, 2484, PROT_READ, MAP_SHARED, 3, 0) = 0x7f5129db8000
+lseek(3, 2484, SEEK_SET)                = 2484
+munmap(0x7f5129db8000, 2484)            = 0
+close(3)                                = 0
+uname({sysname="Linux", nodename="rowad", ...}) = 0
+getpid()                                = 30878
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+getcwd("/home/rowad/Desktop/yt/nest/NestJs-youtube", 4096) = 43
+ioctl(1, TCGETS, {B38400 opost -isig -icanon -echo ...}) = 0
+ioctl(0, TCGETS, {B38400 opost -isig -icanon -echo ...}) = 0
+write(1, "\33[1;35r\33[?12h\33[?12l\33[27m\33[23m\33[2"..., 57) = 57
+write(1, "\33[2;1H  \33[1;1H", 14)      = 14
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+ioctl(1, TCGETS, {B38400 opost -isig -icanon -echo ...}) = 0
+ioctl(0, TCGETS, {B38400 opost -isig -icanon -echo ...}) = 0
+write(1, "\33[>c", 4)                   = 4
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+ioctl(1, TCGETS, {B38400 opost -isig -icanon -echo ...}) = 0
+ioctl(0, TCGETS, {B38400 opost -isig -icanon -echo ...}) = 0
+write(1, "\33]10;?\7\33]11;?\7", 14)    = 14
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+getcwd("/home/rowad/Desktop/yt/nest/NestJs-youtube", 4096) = 43
+stat("/home/rowad/Desktop/yt/nest/NestJs-youtube", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+write(1, "\33[?25l\33[2;1H\33[94m~              "..., 2047) = 2047
+write(1, "    \33[18;1H~                    "..., 2047) = 2047
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 1 (in [0], left {tv_sec=0, tv_usec=0})
+read(0, "\33[2;2R\33[>1;5202;0c\33]10;rgb:d3d3/"..., 4096) = 66
+write(1, "     \33[34;1H~                   "..., 652) = 652
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+write(1, "\33P+q436f\33\\\33P+q6b75\33\\\33P+q6b64\33\\\33P"..., 100) = 100
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+stat("/home/rowad/.vim/syntax/syncolor.vim", 0x7ffe184511d0) = -1 ENOENT (No such file or directory)
+stat("/var/lib/vim/addons/syntax/syncolor.vim", 0x7ffe184511d0) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vimfiles/syntax/syncolor.vim", 0x7ffe184511d0) = -1 ENOENT (No such file or directory)
+stat("/usr/share/vim/vim80/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+stat("/usr/share/vim/vim80/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+openat(AT_FDCWD, ".", O_RDONLY)         = 3
+fchdir(3)                               = 0
+chdir("/usr/share/vim/vim80/syntax")    = 0
+getcwd("/usr/share/vim/vim80/syntax", 4096) = 28
+fchdir(3)                               = 0
+close(3)                                = 0
+stat("/usr/share/vim/vim80/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+openat(AT_FDCWD, "/usr/share/vim/vim80/syntax/syncolor.vim", O_RDONLY) = 3
+fcntl(3, F_GETFD)                       = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(3, F_GETFL)                       = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+stat("/usr/share/vim/vim80/syntax/syncolor.vim", {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=4093, ...}) = 0
+read(3, "\" Vim syntax support file\n\" Main"..., 4096) = 4093
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+read(3, "", 4096)                       = 0
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+stat("/usr/share/vim/vimfiles/after/syntax/syncolor.vim", 0x7ffe184511d0) = -1 ENOENT (No such file or directory)
+stat("/var/lib/vim/addons/after/syntax/syncolor.vim", 0x7ffe184511d0) = -1 ENOENT (No such file or directory)
+stat("/home/rowad/.vim/after/syntax/syncolor.vim", 0x7ffe184511d0) = -1 ENOENT (No such file or directory)
+write(1, "\33[27m\33[23m\33[29m\33[m\33[H\33[2J\33[?25l\33"..., 2047) = 2047
+write(1, "                             \33[1"..., 2047) = 2047
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+write(1, "                              \33["..., 702) = 702
+select(1, [0], [], [0], {tv_sec=4, tv_usec=0}) = 1 (in [0], left {tv_sec=2, tv_usec=354466})
+read(0, ":", 4096)                      = 1
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+write(1, "\33[?25l\33[35;94H:\33[1;1H", 21) = 21
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+write(1, "\33[35;94H\33[K\33[35;1H:", 19) = 19
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+ioctl(0, TCGETS, {B38400 opost -isig -icanon -echo ...}) = 0
+ioctl(0, SNDCTL_TMR_START or TCSETS, {B38400 opost -isig -icanon -echo ...}) = 0
+ioctl(0, TCGETS, {B38400 opost -isig -icanon -echo ...}) = 0
+write(1, "\33[?2004h", 8)               = 8
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+write(1, "\33[?25h", 6)                 = 6
+select(1, [0], [], [0], {tv_sec=4, tv_usec=0}) = 1 (in [0], left {tv_sec=3, tv_usec=844915})
+read(0, "q", 4096)                      = 1
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+write(1, "q", 1)                        = 1
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+write(1, "\33[?25l\33[?25h", 12)        = 12
+select(1, [0], [], [0], {tv_sec=4, tv_usec=0}) = 1 (in [0], left {tv_sec=3, tv_usec=907708})
+read(0, "\r", 4096)                     = 1
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+write(1, "\r", 1)                       = 1
+openat(AT_FDCWD, "/home/rowad/.viminfo", O_RDONLY) = 3
+stat("/home/rowad/.viminfo", {st_mode=S_IFREG|0600, st_size=10799, ...}) = 0
+getuid()                                = 1000
+getuid()                                = 1000
+stat("/home/rowad/.viminfo.tmp", 0x7ffe18450f70) = -1 ENOENT (No such file or directory)
+umask(000)                              = 022
+openat(AT_FDCWD, "/home/rowad/.viminfo.tmp", O_WRONLY|O_CREAT|O_EXCL|O_NOFOLLOW, 0600) = 4
+umask(022)                              = 000
+fcntl(4, F_GETFL)                       = 0x28001 (flags O_WRONLY|O_LARGEFILE|O_NOFOLLOW)
+stat("/home/rowad/.viminfo.tmp", {st_mode=S_IFREG|0600, st_size=0, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0600, st_size=10799, ...}) = 0
+read(3, "# This viminfo file was generate"..., 4096) = 4096
+read(3, "1  8  ~/.vimsrc\n|4,39,1,8,158488"..., 4096) = 4096
+read(3, "pp.service.ts\n|4,39,27,0,1584885"..., 4096) = 2607
+fstat(4, {st_mode=S_IFREG|0600, st_size=0, ...}) = 0
+write(4, "# This viminfo file was generate"..., 4096) = 4096
+write(4, ",4,9,1584885346,\"~/.vimsrc\"\n-'  "..., 4096) = 4096
+read(3, "", 4096)                       = 0
+write(4, "st/NestJs-youtube/src/app.servic"..., 2302) = 2302
+close(4)                                = 0
+close(3)                                = 0
+stat("/home/rowad/.viminfo.tmp", {st_mode=S_IFREG|0600, st_size=10494, ...}) = 0
+stat("/home/rowad/.viminfo", {st_mode=S_IFREG|0600, st_size=10799, ...}) = 0
+unlink("/home/rowad/.viminfo")          = 0
+rename("/home/rowad/.viminfo.tmp", "/home/rowad/.viminfo") = 0
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+write(1, "\33[?25l", 6)                 = 6
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+write(1, "\33[?2004l", 8)               = 8
+ioctl(0, TCGETS, {B38400 opost -isig -icanon -echo ...}) = 0
+ioctl(0, SNDCTL_TMR_START or TCSETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+write(1, "\33[35;1H\33[K\33[35;1H", 17) = 17
+select(1, [0], [], [0], {tv_sec=0, tv_usec=0}) = 0 (Timeout)
+write(1, "\33[?2004l\33[?1l\33>", 15)   = 15
+write(1, "\33[?25h\33[?1049l\33[23;0;0t", 23) = 23
+exit_group(0)                           = ?
++++ exited with 0 +++
