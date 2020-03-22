@@ -15,13 +15,12 @@ import { UserFollower } from './user-follower/userFollower.entity';
 import { FilesModule } from './files/files.module';
 import { FileEntity } from './files/files.entity';
 import { AuthModule } from './auth/auth.module';
-
 @Module({
   imports: [
     TypeOrmModule.forRoot({
       type: 'postgres',
       host: 'localhost',
-      username: 'rowad',
+      username: 'myuser',
       password: 'password',
       database: 'nestjs',
       entities: [
@@ -46,7 +45,7 @@ import { AuthModule } from './auth/auth.module';
   controllers: [AppController],
   providers: [AppService],
 })
-export class AppModule {}
+export class AppModule { }
 
 export type entities =
   | UserEntity

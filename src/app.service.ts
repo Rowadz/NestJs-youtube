@@ -18,10 +18,10 @@ export class AppService extends Seed {
   }
 
   private async fakeData(): Promise<void> {
-    // await this.fakeIt(UserEntity);
-    // await this.fakeIt(PostEntity);
-    // this.fakeIt(CommentEntity);
-    // this.fakeIt(LikeEntity);
-    // this.fakeIt(UserFollower);
+   //  await this.fakeIt(UserEntity);
+   //  await this.fakeIt(PostEntity);
+   //  this.fakeIt(CommentEntity);
+   //  this.fakeIt(LikeEntity);
+   //  this.fakeIt(UserFollower);
   }
 }

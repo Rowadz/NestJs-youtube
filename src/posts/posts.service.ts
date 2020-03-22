@@ -8,7 +8,7 @@ import { Repository } from 'typeorm';
 export class PostsService extends TypeOrmCrudService<PostEntity> {
   constructor(
     @InjectRepository(PostEntity)
-    private readonly postRepo: Repository<PostEntity>,
+    public readonly postRepo: Repository<PostEntity>,
   ) {
     super(postRepo);
   }
